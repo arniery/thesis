@@ -7,6 +7,6 @@ miniexperiment.ipynb :
 
 a_b.wav is an example result from the miniexperiment notebook. if you'd like to try running/producing other examples, you can generate neutral phrases in the "gTTS" section and replace the speech1.npy in path1 with the source file of your choosing.
 
-Notebooks are completely open for download and further research if you think you can produce a result from experiment 1 (inference3). Don't hesitate to contact me if you do create a listenable audio from this pipeline. Sources for code and research are linked below.
+Notebooks are completely open for download and further research if you think you can produce a result from experiment 1 (inference3). Don't hesitate to contact me if you do create a listenable audio from this pipeline. Sources for code and research are linked below, and full paper will be linked in future.
 
 ## sources
