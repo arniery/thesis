@@ -12,7 +12,7 @@ hparams.py, main.py, make_metadata.py, make_spect.py, model_vc.py, and model_vc_
 
 inference2.ipynb : includes the pipeline with Tacotron2 as the acoustic model, our custom-trained with IndicTTS AutoVC model, and the custom-trained HiFi-GAN inference. The custom HiFi-GAN training can be replaced with the pretrained version if desired, and this was the first way that this was tried.
 
-inference3.ipynb : includes gTTS-generated source data, custom HiFi-GAN training, config modification to match AutoVC's config, and debugging scripts as well as the full "experiment 1" pipeline. To skip the .npy file load, scroll 2/3rds-3/4ths of the way down the file to view the rest.
+inference3.ipynb : includes gTTS-generated source data, custom HiFi-GAN training, config modification to match AutoVC's config, target embedding extraction, and debugging scripts as well as the full "experiment 1" pipeline. To skip the .npy file load, scroll 2/3rds-3/4ths of the way down the file to view the rest.
 
 miniexperiment.ipynb : contains the pipeline which utilises gTTS to produce its 3 source data files (neutral/American accented English), a pretrained AutoVC model by Nicola Landro, and the corresponding WaveNet vocoder to produce a listenable result for comparison with the expected result from a custom-trained AutoVC model.
 
