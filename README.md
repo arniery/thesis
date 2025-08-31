@@ -7,7 +7,7 @@ ABSTRACT: Traditional text-to-speech systems consist principally of the acoustic
 ## outline of files
 a_b.wav : is an example result from the miniexperiment notebook. if you'd like to try running/producing other examples, you can generate neutral phrases in the "gTTS" section and replace the speech1.npy in path1 with the source file of your choosing.
 
-hparams.py, main.py, make_metadata.py, make_spect.py, model_vc.py, and model_vc_clean.py : edited scripts for the training of the AutoVC voice conversion model using an Apple Silicon (M2) CPU and the IndicTTS mono Hindi dataset (which contains 13 hours of spoken Hindi English data from 2 speakers, a male speaker and a female speaker).
+hparams.py, main.py, make_metadata.py, make_spect.py, model_vc.py, synthesis.py, and model_vc_clean.py : edited scripts for the training of the AutoVC voice conversion model using an Apple Silicon (M2) CPU and the IndicTTS mono Hindi dataset (which contains 13 hours of spoken Hindi English data from 2 speakers, a male speaker and a female speaker).
 --> license-indictts.pdf : license for the IndicTTS dataset from IIT Madras.
 
 inference2.ipynb : includes the pipeline with Tacotron2 as the acoustic model, our custom-trained with IndicTTS AutoVC model, and the custom-trained HiFi-GAN inference. The custom HiFi-GAN training can be replaced with the pretrained version if desired, and this was the first way that this was tried.
